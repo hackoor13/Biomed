@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 Nx=18
 Ny=9
 
+M= Ny//2
+
 c=3
 h=0.1
 
@@ -16,9 +18,14 @@ for i in range(Ny):
     for j in range(Nx):
         k=i*Nx+j
         
-        if j==0:
-            A[k,k]=1
-            b[k]=1
+        if j==0 :
+            if i==M:
+                A[k,k]=1
+                b[k]=1
+            else:
+                A[k,k]=1
+                A[k,k+1]=-1
+                b[k]=0
         elif j == Nx-1:
             A[k,k]=1+c*h
             A[k,k-1]=-1
