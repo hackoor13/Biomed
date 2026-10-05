@@ -4,9 +4,8 @@ import matplotlib.pyplot as plt
 Nx=18
 Ny=9
 
-M= Ny//2
-
-c=3
+M=[4,5] #hadi li dwit 3liha fREADME hhh
+c=3 #hadi hiya li kat7dd ch7al dyal O2 kaytabsorba la kant c=0 idan tahaja makador bra 
 h=0.1
 
 N=Nx*Ny
@@ -19,7 +18,7 @@ for i in range(Ny):
         k=i*Nx+j
         
         if j==0 :
-            if i==M:
+            if i in M:
                 A[k,k]=1
                 b[k]=1
             else:
