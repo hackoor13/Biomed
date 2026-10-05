@@ -32,6 +32,10 @@ Moraha ghir git pull bach tjibo updates.
 
 la7tajito chi haja sifto mail f khalildriyer@gmail.com
 
+## Install the required libraries
+khdmt bnumpy omatplotlib donc tantoma khas ykono 3ndkom ohit ana adka wahd femines shlt 3likom l9adiya 
+atmchi lcmd mra akhra o tktbo : pip install -r requirements.txt (okhas diro hadchi wst Biomed z3ma fcmd tkon mktoba chi haja /Biomed) (lam3rftoch diro cd Biomed bhal 9bila)
+
 
 
 Chkadir M li flcode:
